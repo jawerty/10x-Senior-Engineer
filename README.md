@@ -8,6 +8,8 @@ $ python senior-engineer.py --api=http://382e-34-143-193-144.ngrok.io /path/to/y
 
 I built 10x-Senior-Engineer on this [this live stream](https://www.youtube.com/watch?v=C9ALpMH3trI) on my Youtube. It works pretty good.
 
+![Screen Shot 2023-09-25 at 10 30 11 PM](https://github.com/jawerty/10x-Senior-Engineer/assets/1999719/377b5209-372c-4006-943d-9664657a4d74)
+
 # How it works
 10x-Senior-Engineer runs on it's own process and waits for file changes. As it gets new file changes it will generate code reviews using the API you set up in Colab. It will keep a queue of the past 10 files that have been reviewed.
 
@@ -21,6 +23,7 @@ You have to run all the cells and ensure the flask server is running properly
 
 Example ngrok url below
 
+![Screen Shot 2023-09-06 at 10 15 14 PM](https://github.com/jawerty/10x-Senior-Engineer/assets/1999719/430865a6-0705-4abc-83ef-ecafdeb86b9d)
 
 ### Clone the repo
 ```
